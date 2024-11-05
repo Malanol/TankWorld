@@ -1,0 +1,19 @@
+.screenshot {
+
+    margin-top: 70px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dom_js_photo {
+    width: 100%;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 2px 2px 50px 2px rgb(230, 230, 230);
+}
+
+.big_photo {
+    width: 640px;
+}

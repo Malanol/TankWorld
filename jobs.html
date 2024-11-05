@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/fonts.css">
+        <link rel="stylesheet" href="./styles/jobs/style.css">
+        <script src="./scripts/jobs/script.js"></script>
+        <script src="./scripts/suggest_news/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <script src=".scripts/script.js"></script>
+        <title>Стать частью команды</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header">
+                    <div class="header_image">
+                        <a href="./index.html"><img src="./images/main_icon.png"></a>
+                    </div>
+                    <div class="header_links">
+                        <div class="header_elem"><a href="./index.html">Главная</a></div>
+                        <div class="header_elem"><a href="./news.html">Новости</a></div>
+                        <div class="header_elem"><a href="./catalog.html">Каталог танков</a></div>
+                        <div class="header_elem"><a href="./catalog.html#best_tanks">Лучшие танки 2024</a></div>
+                        <div class="header_elem"><a href="./algoritmic_task.html">Алгоритмическая задача</a></div>
+                        <div class="header_elem"><a href="./passport.html">Паспорт</a></div>
+                        <div class="header_elem"><a href="./suggest_news.html">Предложить новость</a></div>
+                        <div class="header_elem"><a href="./jobs.html" class="active_link">Стать частью команды</a></div>
+                        <div class="header_elem"><a href="https://lesta.ru/ru" target="_blank"><img src="./images/lesta.webp"></a></div> 
+                        <div class="header_elem"><a href="https://worldoftanks.com/" target="_blank"><img src="./images/wg2.png"></a></div> 
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="action_image">
+                    
+                </div>
+                <div class="action_description">
+                    <h1>Хочешь стать частью команды?</h1>
+                    <p class="small_text">Мы всегда рады новым людям!</p>
+                    <h2>Расскажи немного о себе:</h2>
+                    <form class="input_form" action="https://www.bing.com/search?" id="request_job" target="_blank">
+                        <input type="hidden" name="q" value="search">
+                        <div class="text_input">
+                            <p>Имя: </p><input type="text" name="first_name" placeholder="Иван" id="first_name">
+                        </div>
+                        <div class="text_input">
+                            <p>Фамилия: </p><input type="text" name="last_name" placeholder="Иванов" id="last_name">
+                        </div>
+                        <div class="text_input">
+                            <p>Возраст (полных лет): </p><input type="number" name="age" placeholder="18" id="age">
+                        </div>
+                        <div class="text_input">
+                            <p>Почта: </p><input type="email" name="email" placeholder="email@email.com" id="email">
+                        </div>
+                        <div class="text_input">
+                            <p>Ник в игре: </p><input type="Text" name="nickname" placeholder="Nickname" id="nickname">
+                        </div>
+                        <div class="country_input">
+                            <p>Страна проживания:</p>
+                            <div class="country_input_options">
+                                <div class="country_input_option">
+                                    <img src="images/russia.png">
+                                    <div class="country_input_text">
+                                        <input type="radio" name="country" value="Russia" id="country">
+                                        <span>Россия</span>
+                                    </div>
+                                </div>
+                                <div class="country_input_option">
+                                    <img src="images/belarus.png">
+                                    <div class="country_input_text">
+                                        <input type="radio" name="country" value="Belarus">
+                                        <span>Беларусь</span>
+                                    </div>
+                                </div>
+                                <div class="country_input_option">
+                                    <img src="images/kazakhstan.png">
+                                    <div class="country_input_text">
+                                        <input type="radio" name="country" value="Kazakhstan">
+                                        <span>Казахстан</span>
+                                    </div>
+                                </div>
+                                <div class="country_input_option">
+                                    <img src="images/eu.png">
+                                    <div class="country_input_text">
+                                        <input type="radio" name="country" value="Europe">
+                                        <span>Европа</span>
+                                    </div>
+                                </div>
+                                <div class="country_input_option">
+                                    <img src="images/world.png">
+                                    <div class="country_input_text">
+                                        <input type="radio" name="country" value="World">
+                                        <span>Другая страна</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills_input">
+                                <p>Выбери то, что тебя описывает:</p>
+                                <div class="skills_option">
+                                    <input type="Checkbox" name="winrate" value="1"><span>Больше 50 % на аккаунте</span>
+                                </div>
+                                <div class="skills_option">
+                                    <input type="Checkbox" name="clan" value="1"><span>Состою в каком-либо клане</span>
+                                </div>
+                                <div class="skills_option">
+                                    <input type="Checkbox" name="wg_experience" value="1"><span>Имел опыт работы с Wargaming / Lesta</span>
+                                </div>
+                                <div class="skills_option">
+                                    <input type="Checkbox" name="bloger" value="1"><span>Я блогер / стример</span>
+                                </div>
+                                <div class="skills_option">
+                                    <input type="Checkbox" name="skills" value="1"><span>Имею опыт работы в журналистике / IT / медиакоммуникациях</span>
+                                </div>
+                            </div>
+                            <div class="account_region">
+                                <p>Регион аккаунта: </p>
+                                <select name="region">
+                                    <option value="RU/BY">RU/BY (Lesta)</option>
+                                    <option value="EU">EU (Wargaming)</option>
+                                    <option value="NA">NA (Wargaming)</option>
+                                    <option value="ASIA">ASIA (Wargaming)</option>
+                                </select>
+                            </div>
+                            <div class="registration_date">
+                                <p>Дата регистрации аккаунта: </p>
+                                <input type="date" name="registration_date" id="date" placeholder="Date">
+                            </div>
+                            <input type="hidden" name="agreement" value="1">
+                            <div class="password">
+                                <p>Придумайте пароль, который хотели бы использовать на сайте: </p>
+                                <input type="password" name="password" placeholder="password" id="password">
+                            </div>
+                            <button id="go_button" class="submit_button" type="button">Отправить заявку</button>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_image">
+                    <img src="./images/icon2.png">
+                    <p>TankWorld</p>
+                </div>
+                <div class="footer_information">
+                    <p>Данный сайт был создан в рамках проекта<br>по дисциплине "Основы web-технологий"</p>
+                </div>
+                <div class="footer_connect">
+                    <p>Связаться с автором:</p>
+                    <a href="https://t.me/malanol" target="_blank"><img src="./images/telegram_icon4.png"></a>
+                    <a href="https://vk.com/malygin_anton" target="_blank"><img src="./images/vk.png"></a>
+                </div>
+                <div class="footer_author">
+                    <p>Антон Малыгин</p>
+                    <p>2024</p>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>

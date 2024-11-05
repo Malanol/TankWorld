@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.action_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+    background-image: url("../../images/suggest_news.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.action_image img {
+    border-radius: 10000px; /* Радиус скругления */
+    height: 50%;
+}
+
+.action_description {
+    margin-left: 25px;
+}
+
+.action_description h1 {
+    margin: 0;
+    font-family: "Malygin";
+}
+
+.action_description .small_text {
+    margin: 0;
+    font-family: "Malygin";
+    color: #808080;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.input_form {
+    margin-top: 20px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 485px;
+    min-height: 300px;
+    max-height: 500px;
+    resize: vertical;
+    
+    border: 1px solid rgb(200, 200, 200);
+    font-family: "MalyginRegular";
+}
+
+textarea:focus {
+    outline: none !important;
+}

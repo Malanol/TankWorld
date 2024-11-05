@@ -1,0 +1,105 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tank_catalog {
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.tank_catalog table {
+    border-collapse: collapse;
+    border: 1px solid rgb(220, 220, 220);
+    font-family: "MalyginRegular";
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 100%;
+
+    background-image: url("../../images/logo.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+}
+
+th, td {
+  padding: 8px 10px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+
+
+.tank_image {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+}
+
+.tank_image img {
+    width: 80%;
+
+    box-shadow: 2px 2px 25px 10px rgb(230, 230, 230);
+}
+
+.tank_image p {
+    margin: 0;
+    margin-top: 10px;
+    font-family: "MalyginRegular";
+}
+
+.nation, .class, .xp {
+    text-align: center;
+}
+
+.ttx ul {
+    margin: 0;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+.best_tanks_disclaimer {
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.best_tanks_disclaimer p {
+    font-family: "MalyginRegular";
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+
+.xp img {
+    width: 20px;
+}
+
+.content_header a {
+    text-decoration: none;
+    font-family: "MalyginRegular";
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    color: #1560bd ;
+}
+
+.up_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up_button a {
+    margin-top: 15px;
+    font-family: "MalyginRegular";
+    background-color: rgb(0, 117, 255);
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}

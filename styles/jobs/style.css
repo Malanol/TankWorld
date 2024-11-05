@@ -1,0 +1,227 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.action_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+    background-image: url("../../images/tankists2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: 2px 2px 50px 2px rgb(230, 230, 230);
+}
+
+.action_image img {
+    border-radius: 10000px; /* Радиус скругления */
+    height: 50%;
+}
+
+.action_description {
+    margin-left: 25px;
+    border-left: 1px solid rgb(220, 220, 220);
+    padding-left: 25px;
+    height: fit-content;
+}
+
+.action_description h1 {
+    margin: 0;
+    font-family: "Malygin";
+}
+
+.action_description .small_text {
+    margin: 0;
+    font-family: "Malygin";
+    color: #808080;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.action_description h2 {
+    margin: 0;
+    font-family: "Malygin";
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+}
+
+.input_form {
+    margin-top: 20px;
+}
+
+.text_input {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-top: 10px;
+}
+
+.text_input p {
+    margin: 0;
+    font-family: "Malygin";
+    font-size: 14px;
+}
+
+.text_input input {
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    background-color: transparent;
+    margin-left: 10px;
+    font-family: "MalyginRegular";
+}
+
+.text_input input:focus {
+    outline: none !important;
+}
+
+.country_input {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    margin-top: 16px;
+}
+
+.country_input p {
+    margin: 0;
+    font-family: "Malygin";
+    font-size: 14px;
+}
+
+
+input[type='radio'] {
+    width: 14px;
+    height: 14px;
+    color: rgba(56, 71, 68, 1);
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.country_input_options {
+    display: flex;
+    flex-direction: row;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.country_input_option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.country_input_option img {
+    height: 30px;
+}
+
+.country_input_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.country_input_text span {
+    font-family: "MalyginRegular";
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.skills_input p {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.skills_option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.skills_option span {
+    font-family: "MalyginRegular";
+    font-size: 12px;
+}
+
+.account_region {
+    margin-top: 10px;
+}
+
+.account_region select {
+    margin-top: 5px;
+    font-family: "MalyginRegular";
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.account_region select:focus /* => from bootstrap css */
+{
+    outline: 0;
+    box-shadow: none;
+}
+
+.registration_date {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.registration_date input {
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    background-color: transparent;
+    margin-left: 10px;
+    font-family: "MalyginRegular";
+}
+
+.registration_date input:focus {
+    outline: none !important;
+}
+
+.password {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.password input {
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    background-color: transparent;
+    margin-left: 10px;
+    font-family: "MalyginRegular";
+}
+
+.password input:focus {
+    outline: none !important;
+}
+
+.submit_button {
+    margin-top: 30px;
+    width: 200px;
+    font-family: "MalyginRegular";
+    background-color: rgb(0, 117, 255);
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}

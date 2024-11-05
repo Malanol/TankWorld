@@ -1,0 +1,204 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header_wrapper {
+    height: 63px;
+    position: fixed;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    background-color: white;
+
+    box-shadow: 2px 2px 50px 2px rgb(230, 230, 230);
+    z-index: 1000;
+}
+
+.header{
+    height: 63px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header_elem {
+    margin: 10px;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Malygin";
+    font-size: 12px;
+}
+
+.header_elem img {
+    width: 20px;
+}
+
+.header_links {
+    margin: 10px;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Malygin";
+    font-size: 12px;
+}
+
+.header_image {
+    margin: 10px;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Malygin";
+    font-size: 12px;
+}
+
+.header_image img {
+    height: 100%;
+}
+
+.header_image a {
+    height: 75%;
+}
+
+.header_elem a {
+    text-decoration: none;
+    color: black;
+}
+
+.header_elem a:hover {
+    color: #808080;
+    transition: 0.1s;
+}
+
+.header_elem .active_link {
+    font-weight: bold;
+}
+
+.main {
+    background-color: white;
+    flex: 1 0 auto;
+    margin-top: 63px;
+}
+
+.footer {
+    background-color: rgb(50, 50, 50);
+    flex: 0 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.footer_image {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 45px;
+}
+
+.footer_image img {
+    height: 75%;
+
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.footer_image p {
+    margin: 0;
+    margin-left: 10px;
+    font-family: "Malygin";
+    color: rgb(200, 200, 200);
+    font-size: 14px;
+
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.footer_information p {
+    margin: 0;
+
+    font-family: "Malygin";
+    font-size: 10px;
+    color: rgb(200, 200, 200);
+
+    margin-top: 10px;
+}
+
+.footer_connect {
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer_connect p {
+    margin: 0;
+
+    font-family: "Malygin";
+    font-size: 10px;
+    color: rgb(200, 200, 200);
+}
+
+.footer_connect img {
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 15px;
+}
+
+.footer_author {
+    margin: 0;
+    margin-top: 7px;
+}
+
+.footer_author p {
+    font-family: "Malygin";
+    font-size: 10px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    margin: 0;
+    margin-top: 3px;
+}

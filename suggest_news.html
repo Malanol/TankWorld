@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/fonts.css">
+        <link rel="stylesheet" href="./styles/jobs/style.css">
+        <link rel="stylesheet" href="./styles/suggest_news/style.css">
+        <script src="./scripts/script.js"></script>
+        <script src="./scripts/suggest_news/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <script src=".scripts/script.js"></script>
+        <title>Предложить новость</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header">
+                    <div class="header_image">
+                        <a href="./index.html"><img src="./images/main_icon.png"></a>
+                    </div>
+                    <div class="header_links">
+                        <div class="header_elem"><a href="./index.html" class="active_link">Главная</a></div>
+                        <div class="header_elem"><a href="./news.html">Новости</a></div>
+                        <div class="header_elem"><a href="./catalog.html">Каталог танков</a></div>
+                        <div class="header_elem"><a href="./catalog.html#best_tanks">Лучшие танки 2024</a></div>
+                        <div class="header_elem"><a href="./algoritmic_task.html">Алгоритмическая задача</a></div>
+                        <div class="header_elem"><a href="./passport.html">Паспорт</a></div>
+                        <div class="header_elem"><a href="./suggest_news.html" class="active_link">Предложить новость</a></div>
+                        <div class="header_elem"><a href="./jobs.html">Стать частью команды</a></div>
+                        <div class="header_elem"><a href="https://lesta.ru/ru" target="_blank"><img src="./images/lesta.webp"></a></div> 
+                        <div class="header_elem"><a href="https://worldoftanks.com/" target="_blank"><img src="./images/wg2.png"></a></div> 
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="action_image">
+                    
+                </div>
+                <div class="action_description">
+                    <h1>Предложить новость</h1>
+                    <p class="small_text">Мы ценим интересную и полезную информацию!</p>
+                    <form class="input_form" action="https://www.bing.com/search?" id="suggest_form" target="_blank">
+                        <input type="hidden" name="q" value="search">
+                        <h2>Укажи свои контактные данные:</h2>
+                        <div class="text_input">
+                            <p>Имя: </p><input type="text" name="first_name" placeholder="Иван" id="first_name">
+                        </div>
+                        <div class="text_input">
+                            <p>Фамилия: </p><input type="text" name="last_name" placeholder="Иванов" id="last_name">
+                        </div>
+                        <div class="text_input">
+                            <p>Группа (если есть): </p><input type="text" name="group" placeholder="БГП230" id="group">
+                        </div>
+                        <div class="text_input">
+                            <p>Мобильный телефон: </p><input type="tel" name="phone_number" placeholder="+7(000)000-00-00" id="phone_number">
+                        </div>
+                        <div class="text_input">
+                            <p>Электронная почта: </p><input type="email" name="email" placeholder="email@email.com" id="email">
+                        </div>
+                        <div class="text_input">
+                            <p>Дата отправки сообщения: </p><input id="date" type="date" name="date" required>
+                        </div>
+                        <div class="text_input">
+                            <p>Источник новости (кратко): </p><input type="text" name="source" placeholder="Источник" id="source">
+                        </div>
+                        <h2>Текст новости:</h2>
+                        <div>
+                            <textarea name="news_text" placeholder="Текст новости" id="news_text"></textarea>
+                        </div>        
+                        <button id="go_button" class="submit_button" type="button">Предложить новость</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_image">
+                    <img src="./images/icon2.png">
+                    <p>TankWorld</p>
+                </div>
+                <div class="footer_information">
+                    <p>Данный сайт был создан в рамках проекта<br>по дисциплине "Основы web-технологий"</p>
+                </div>
+                <div class="footer_connect">
+                    <p>Связаться с автором:</p>
+                    <a href="https://t.me/malanol" target="_blank"><img src="./images/telegram_icon4.png"></a>
+                    <a href="https://vk.com/malygin_anton" target="_blank"><img src="./images/vk.png"></a>
+                </div>
+                <div class="footer_author">
+                    <p>Антон Малыгин</p>
+                    <p>2024</p>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>
